@@ -1,0 +1,21 @@
+# Build
+/build/
+*.egg-info/
+
+# Editor / OS
+.idea/
+.DS_Store
+
+# Symlink to the shared devenv/vscode
+/.vscode
+
+# Tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+secrets.*
+*.key
