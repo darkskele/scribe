@@ -25,3 +25,5 @@ packages = ["scribe"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+# sphinx-needs 9.2.0 reads env.app, which Sphinx 9.2 deprecates. Theirs to clear, not ours.
+filterwarnings = ["ignore::sphinx.deprecation.RemovedInSphinx11Warning:sphinx_needs"]
