@@ -7,10 +7,10 @@ The design is in `~/quant/notes/SCRIBE.md`. The milestones are kept here.
 - [x] ~~0. Repo. Done when `scribe --help` runs.~~
     - [x] ~~`darkskele/scribe` on GitHub, `~/quant/scribe` as a bare repo with worktrees, devenv VS Code config.~~
     - [x] ~~`pyproject.toml` with its dependencies pinned, the `scribe` conda env with an editable install, `CLAUDE.md`, `README.md`.~~
-- [ ] 1. Objects and check. Done when the spike's `docs/queue` passes and a duplicate or malformed ID fails with its file and line.
-    - [ ] The bundled sphinx-needs configuration: types, kinds, fields, ID pattern, states, schema version.
-    - [ ] `scribe.toml`.
-    - [ ] `scribe check`: forms per kind, IDs, links and refinements, layout.
+- [x] ~~1. Objects and check. Done when the spike's `docs/queue` passes and a duplicate or malformed ID fails with its file and line.~~
+    - [x] ~~The bundled sphinx-needs configuration: types, kinds, fields, ID pattern, states, schema version.~~
+    - [x] ~~`scribe.toml`.~~
+    - [x] ~~`scribe check`: forms per kind, IDs, links and refinements, layout.~~
 - [ ] 2. Site. Done when the spike's site is rebuilt by scribe from a repo with nothing but MyST and `scribe.toml`.
     - [ ] `scribe build` and `scribe serve`. Top page with the work list, a page per module, milestones expanding to their requirements and claims.
 - [ ] 3. TODO. Done when a commit in the pilot repo regenerates and stages `TODO.md`.
